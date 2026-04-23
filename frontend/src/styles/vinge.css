@@ -1,0 +1,26 @@
+
+#vinge-card {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #091835;
+    padding: 2rem;
+    border-radius: 20px;
+    max-width: fit-content;
+    margin: 20px auto;
+    text-align: start;
+    box-shadow: 1px 1px 20px #2a2b54;
+    img {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        margin: 1rem;
+        box-shadow: 1px 1px 20px #2a2b54;
+        border-radius: 5px;
+    }
+    h2, a, p {
+        text-align: start;
+        margin: 1rem;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
