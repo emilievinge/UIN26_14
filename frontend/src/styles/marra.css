@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=League+Script&family=Passions+Conflict&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+ font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* Artikkelkort */
+#maria-article {
+    background-color: #250000;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin: 20px auto;
+    text-align: start;
+    border: 3px solid #000000;
+    box-shadow: 1px 1px 20px white;
+    color: rgb(255, 255, 255);
+
+    a{
+        color:rgb(253, 253, 253)
+    }
+}
+
+/* Bilde */
+#marra-photo {
+    width: 300px;
+    border: 5px solid #000000;
+    box-shadow: 1px 1px 500px rgb(0, 0, 0);
+}
+
+/* Navnet  */
+h2{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 55px;
+}
