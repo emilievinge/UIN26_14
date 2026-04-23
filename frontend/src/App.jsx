@@ -7,6 +7,7 @@ import './styles/layout.css'
 import Header from './compontents/Header'
 import Haugen from './compontents/Haugen'
 import Marra from './compontents/Marra'
+import Vinge from './compontents/Vinge'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Haugen />
       <Marra />
+      <Vinge />
     </>
   )
 }
