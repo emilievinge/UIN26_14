@@ -8,8 +8,8 @@ export default function Haugen() {
 
             <h2>Eskil P. Haugen</h2>
 
-            <a href="mailto:eskilph@hiof.no">eskilph@hiof.no</a>
-            <p>Informasjonssystemer</p>
+            <p>E-post: <a href="mailto:eskilph@hiof.no">eskilph@hiof.no</a></p>
+            <p>Studie: Bachelor i Informasjonssystemer</p>
         </article>
     )
 }
