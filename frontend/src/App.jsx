@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import './styles/layout.css'
 import Header from './compontents/Header'
+import Haugen from './compontents/Haugen'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Header />
+      <Haugen />
     </>
   )
 }

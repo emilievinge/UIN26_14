@@ -1,0 +1,26 @@
+
+
+.haugen-card {
+    border: solid;
+    padding: 2rem;
+    border-radius: 5%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin: inherit;
+
+    img {
+        border: solid;
+        box-shadow: 1px 1px 20px;
+        border-radius: 5%;
+        max-width: 300px;
+    }
+
+    h2 {
+        padding-top: 1rem;
+    }
+}
