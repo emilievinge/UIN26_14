@@ -8,6 +8,7 @@
     margin: 20px auto;
     text-align: start;
     box-shadow: 1px 1px 20px #2a2b54;
+    color: #fff;
     img {
         display: flex;
         align-items: center;
@@ -16,7 +17,7 @@
         box-shadow: 1px 1px 20px #2a2b54;
         border-radius: 5px;
     }
-    h2, a, p {
+    h2, p {
         text-align: start;
         margin: 1rem;
     }

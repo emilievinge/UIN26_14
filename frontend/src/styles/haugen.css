@@ -12,6 +12,7 @@
     align-items: flex-start;
     max-width: fit-content;
     margin: inherit;
+    color: #fff;
 
     img {
         border: solid;
