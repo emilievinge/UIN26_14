@@ -21,6 +21,11 @@
     }
 }
 
+#maria-article:hover{
+    box-shadow: 2px 2px 50px white;
+    transform: scale(1.05);
+}
+
 /* Bilde */
 #marra-photo {
     width: 300px;
