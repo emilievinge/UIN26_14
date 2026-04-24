@@ -9,7 +9,7 @@ export const arbeidskrav = {
             title: 'Tittel',
             type: 'string'
         },{
-            name: 'beskrivelse',
+            name: 'description',
             title: 'Beskrivelse',
             type: 'text'
         }
