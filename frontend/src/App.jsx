@@ -4,12 +4,12 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import './styles/layout.css'
-import Header from './compontents/Header'
-import Haugen from './compontents/Haugen'
-import Marra from './compontents/Marra'
-import Vinge from './compontents/Vinge'
-import Vangemert from './compontents/Vangemert'
-import Assignments from './compontents/Assignments'
+import Header from './components/Header'
+import Haugen from './components/Haugen'
+import Marra from './components/Marra'
+import Vinge from './components/Vinge'
+import Vangemert from './components/Vangemert'
+import Assignments from './components/Assignments'
 
 
 function App() {
@@ -18,22 +18,16 @@ function App() {
   return (
     <>
       <Header />
-      <Haugen />
-      <Marra />
-      <Vinge />
-      <Vangemert />
-      <Assignments />
+      <main>
+        <section>
+          <Haugen />
+          <Marra />
+          <Vinge />
+          <Vangemert />
+        </section>
+        <Assignments />
+      </main>
     </>
-    <main>
-      <section>
-        <Header />
-        <Haugen />
-        <Marra />
-        <Vinge />
-        <Vangemert />
-      </section>
-      
-    </main>
   )
 }
 
