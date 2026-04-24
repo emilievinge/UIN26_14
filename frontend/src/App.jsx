@@ -24,6 +24,16 @@ function App() {
       <Vangemert />
       <Assignments />
     </>
+    <main>
+      <section>
+        <Header />
+        <Haugen />
+        <Marra />
+        <Vinge />
+        <Vangemert />
+      </section>
+      
+    </main>
   )
 }
 
