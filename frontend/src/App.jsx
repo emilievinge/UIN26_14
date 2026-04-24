@@ -5,6 +5,8 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import './styles/layout.css'
 import Header from './compontents/Header'
+import Vangemert from './compontents/Vangemert'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,7 @@ function App() {
   return (
     <>
       <Header />
+      <Vangemert />
     </>
   )
 }
