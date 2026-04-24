@@ -1,12 +1,12 @@
 
 export const arbeidskrav = {
-    name: 'arbeidskrav',
+    name: 'assignment',
     title: 'Arbeidskrav',
     type: 'document',
     fields: [
         {
-            name: 'arbeidskravname',
-            title: 'Arbeidskravnavn',
+            name: 'assignmentname',
+            title: 'Tittel',
             type: 'string'
         },{
             name: 'beskrivelse',
