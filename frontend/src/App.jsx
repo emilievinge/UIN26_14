@@ -9,6 +9,7 @@ import Haugen from './compontents/Haugen'
 import Marra from './compontents/Marra'
 import Vinge from './compontents/Vinge'
 import Vangemert from './compontents/Vangemert'
+import Assignments from './compontents/Assignments'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Marra />
       <Vinge />
       <Vangemert />
+      <Assignments />
     </>
   )
 }
