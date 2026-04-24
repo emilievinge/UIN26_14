@@ -15,13 +15,16 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Header />
-      <Haugen />
-      <Marra />
-      <Vinge />
-      <Vangemert />
-    </>
+    <main>
+      <section>
+        <Header />
+        <Haugen />
+        <Marra />
+        <Vinge />
+        <Vangemert />
+      </section>
+      
+    </main>
   )
 }
 
