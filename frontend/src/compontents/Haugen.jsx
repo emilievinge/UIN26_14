@@ -3,7 +3,7 @@ import '../styles/haugen.css'
 export default function Haugen() {
     return(
         <article className="haugen-card">
-            <img src="../public/Grogu_Profile_Pic.webp" alt="Bilde av Grogu" />
+            <img src="../Grogu_Profile_Pic.webp" alt="Bilde av Grogu" />
 
             <h2>Eskil P. Haugen</h2>
 
