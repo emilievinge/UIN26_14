@@ -21,7 +21,7 @@
     }
 }
 
-#maria-article:hover{
+#marra-article:hover{
     box-shadow: 2px 2px 50px white;
     transform: scale(1.05);
 }
@@ -31,6 +31,7 @@
     width: 300px;
     border: 5px solid #000000;
     box-shadow: 1px 1px 500px rgb(0, 0, 0);
+    margin: auto
 }
 
 /* Navnet  */
