@@ -8,6 +8,8 @@ import Header from './compontents/Header'
 import Haugen from './compontents/Haugen'
 import Marra from './compontents/Marra'
 import Vinge from './compontents/Vinge'
+import Vangemert from './compontents/Vangemert'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,7 @@ function App() {
       <Haugen />
       <Marra />
       <Vinge />
+      <Vangemert />
     </>
   )
 }
