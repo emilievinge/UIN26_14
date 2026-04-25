@@ -3,7 +3,7 @@ import client from '../helpers/client'
 
 export default function Assignments() {
 
-    const [allAssignments, setAllAssignments] = useState(null)
+    const [allAssignments, setAllAssignments] = useState([])
 
     useEffect(() => {
         async function fetchAssignments() {
